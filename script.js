@@ -50,20 +50,23 @@ function limpa_classes() {
 function coloca_latas_na_tela() {
   for(let lata of fabrica.latas){
     let comidaSpan = lata.elemento.firstElementChild;
-    lata.elemento.className = ""; // deleta todas as classes do elemento
 
-    /* ADICIONAR CODIGOS AQUI PARA MUDAR O CONTEUDO
-      * DO SPAN DE ACORDO COM O NOME.
-      * MUDAR TAMBEM A CLASSE DO li DENTRO DO ul
-      * PARA QUE APAREÇA O BACKGROUND CORRETAMENTE DE
-      * ACORDO COM A OPCAO
+    // remove todas as classes do elemento
+    lata.elemento.className = "";
+
+    /* Adicionar codigos aqui para mudar o conteudo
+      * do span de acordo com o nome.
+      * mudar tambem a classe do LI dentro do UL
+      * para que apareça o background corretamente de
+      * acordo com a opcao
       * */
+
   }
 }
-function inicializa_pagina(){
-for (let lata of fabrica.latas)
-    lata.elemento.firstElementChild.innerText = "COMIDA";
 
+function inicializa_pagina(){
+  for (let lata of fabrica.latas)
+    lata.elemento.firstElementChild.innerText = "COMIDA";
 }
 
 fabrica.cria_latas();
