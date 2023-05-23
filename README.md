@@ -18,7 +18,7 @@ identificação genérica (img 1).
     <img src="img/inicio.png"
     alt="imagem inicio"
     />
-    <figcaption align="center"><b>Img 1 - Início </b></figcaption>
+    <p align="center"><b>Img 1 - Início </b></p>
 </figure>
 
 &nbsp; &nbsp; Ao pressinar o botão "Atualizar", novas latas - agora não vazias - são produzidas e, em seguida,
@@ -28,7 +28,7 @@ colocadas na tela do usuário (img 2).
     <img src="img/fim.png"
     alt="imagem fim"
     />
-    <figcaption align="center"><b>Img 2 - Após apertar no botão "Atualizar"</b></figcaption>
+    <p align="center"><b>Img 2 - Após apertar no botão "Atualizar"</b></p>
 </figure>
 
 
