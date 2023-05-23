@@ -15,7 +15,7 @@ a fábrica dispõe de algumas latas vazias na linha, que aparecem na tela como q
 identificação genérica (img 1).
 
 <figure>
-    <img src="inicio.png"
+    <img src="img/inicio.png"
     alt="imagem inicio"
     />
     <figcaption align="center"><b>Img 1 - Início </b></figcaption>
@@ -25,7 +25,7 @@ identificação genérica (img 1).
 colocadas na tela do usuário (img 2).
 
 <figure>
-    <img src="fim.png"
+    <img src="img/fim.png"
     alt="imagem fim"
     />
     <figcaption align="center"><b>Img 2 - Após apertar no botão "Atualizar"</b></figcaption>
